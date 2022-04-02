@@ -1,5 +1,5 @@
 # WebPage-BS
-Web Page per Azienda creata come progetto settimanale (sett.4) con l'utilizzo di Bootstrap 5.
+Web Page per Azienda creata come progetto settimanale (sett.4) con l'utilizzo di Bootstrap 5 e preprocessore SASS.
 
 <img src="img/Home.jpg" width="400"><br><span>Home Page</span><br>
 <img src="img/About.jpg" width="400"><br><span>About Section</span><br>
