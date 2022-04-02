@@ -1,0 +1,166 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.green{
+    color: #5cf370;
+}
+
+.bi-i{
+    font-size: 1.5rem;
+    color: #5cf370;
+    margin: 5px;
+}
+
+.number{
+    font-size:2.2rem;
+    color: #5cf370;
+    font-weight: bold;
+}
+
+h1, h2, h3, h5, h6, .navbar, .navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    li{
+        margin: 0 5px;
+    }
+}
+
+#secondimg ul, #portfolio ul{
+    list-style-type: none;
+}
+
+#portfolio li{
+    padding: 10px;
+}
+
+.action{
+    background-color: #5cf370;
+}
+
+#primoblocco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.bordertb {
+    border-top: 2px solid #5cf370;
+    border-bottom: 2px solid #5cf370;
+}
+
+.bicircle{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bg-gray{
+    background-color: #f5f6f7;
+}
+
+.card-img {
+    width: max-width;
+    height: auto;
+}
+
+#sticky-a{
+    text-decoration: none;
+    color: #5cf370;
+}
+
+.sticky-btn{
+    font-size: 2.2rem;
+    color: #5cf370;
+}
+
+.sticky{
+    position: sticky;
+    right: 10px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.pointer:hover {
+    cursor: pointer;
+    color: #5cf370;
+}
+
+.w-img{
+    width: 20%;
+    height: auto;
+}
+
+.bg-i{
+    background-color: #d8d9da;
+    width: max-content;
+    height: auto;
+    border-radius: 10%;
+    padding: 4px 7px;
+    margin: 0 3px 20px 3px;
+}
+
+.mf{
+    margin: 4px;
+    font-size: 1.1rem;
+}
+
+.ombra{
+    opacity: 0.3;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: grey;
+    position: relative;
+    top: 35px;
+}
+
+.zh{
+    z-index: 3;
+}
+
+@keyframes translateY{
+    from{ transform: translateY(0px); z-index: -1;}
+    25%{ transform: translateY(10px);  z-index: -1;}
+    50%{ transform: translateY(20px);  z-index: -1;}
+    75%{ transform: translateY(10px);  z-index: -1;}
+    100%{ transform: translateY(0px);  z-index: -1;}
+}
+
+.anim-img{
+    animation: translateY 2s linear infinite;
+    margin-left: -10px;
+}
+
+.car-img {
+    z-index: 2;
+    position: relative;
+    top: -20px;
+}
+
+
+.btn-success{
+    background-color: $success;
+}
+
+/*:root {
+--bs-lgreen: #5cf370;
+}
+
+body {
+    .nav.button {
+        background-color: var(--bs-lgreen);
+    }
+
+:root {
+    --bs-success-rgb: #5cf370;
+}
+
+$carousel-indicator-active-bg:       #000;
+$carousel-control-color:             #000;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#000'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#000'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");*/

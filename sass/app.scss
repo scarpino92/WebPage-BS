@@ -1,0 +1,10 @@
+@import "../bootstrap-5.1.3/scss/bootstrap.scss";
+@import 'variables';
+@import 'function';
+@import 'custom';
+
+.btn-success{
+    background-color: $success;
+    border-color: $success;
+}
+@import "../bootstrap-5.1.3/scss/bootstrap.scss";
